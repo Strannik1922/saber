@@ -39,7 +39,7 @@ def main() -> None:
 
     _merge_logs(log_1_path, log_2_path, output_path)
 
-    print(f"finished in {time.time() - t0:0f} sec")
+    print(f"Время работы {time.time() - t0:0f} сек")
 
 
 if __name__ == '__main__':

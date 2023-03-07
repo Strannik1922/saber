@@ -6,6 +6,6 @@ def timer(func):
         t0 = time.time()
         res = func(*args, **kwargs)
         t1 = time.time()
-        print(f'time: {t1-t0}')
+        print(f'время: {t1-t0}')
         return res
     return wrapper
